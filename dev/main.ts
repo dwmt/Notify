@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
-import { createLib } from '../src/Lib'
+import { createNotify } from '../src/Notify'
 import App from './App.vue'
 
-const lib = createLib('example')
+const notify = createNotify()
 
-createApp(App).use(lib).mount('#app')
+createApp(App).use(notify).mount('#app')

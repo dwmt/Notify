@@ -7,8 +7,8 @@ export default defineConfig({
 	plugins: [vue()],
 	build: {
 		lib: {
-			entry: path.resolve(__dirname, 'src/Lib.ts'),
-			name: 'Lib'
+			entry: path.resolve(__dirname, 'src/Notify.ts'),
+			name: 'Notify'
 		},
 		rollupOptions: {
 			external: ['vue'],

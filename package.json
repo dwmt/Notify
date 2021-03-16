@@ -1,13 +1,14 @@
 {
-	"name": "vue3-plugin-vite-template",
+	"name": "@dwmt/notify",
 	"version": "1.0.0",
 	"description": "Template for Vue3 plugin development",
-	"main": "./dist/vue3-plugin-vite-template.umd.js",
-	"module": "./dist/vue3-plugin-vite-template.es.js",
+	"main": "./dist/notify.umd.js",
+	"module": "./dist/notify.es.js",
+	"types": "./dist/Notify.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/vue3-plugin-vite-template.es.js",
-			"require": "./dist/vue3-plugin-vite-template.umd.js"
+			"import": "./dist/notify.es.js",
+			"require": "./dist/notify.umd.js"
 		}
 	},
 	"scripts": {
