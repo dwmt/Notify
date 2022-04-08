@@ -1,6 +1,6 @@
 {
 	"name": "@dwmt/notify",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Template for Vue3 plugin development",
 	"main": "./dist/notify.umd.js",
 	"module": "./dist/notify.es.js",
@@ -9,6 +9,10 @@
 		".": {
 			"import": "./dist/notify.es.js",
 			"require": "./dist/notify.umd.js"
+		},
+		"./dist/style.css": {
+			"import": "./dist/style.css",
+			"require": "./dist/style.css"
 		}
 	},
 	"scripts": {
